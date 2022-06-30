@@ -1,1 +1,16 @@
-<h1>Project List View</h1>
+{% extends 'budget/base.html' %}
+{% block content %}
+
+<div class="container">
+
+    <div class="noproject-wrapper center">
+        <h3 class="grey-text">No bank accounts registered.</h3>
+        <a href="" class="btn-large grey">
+            <i class="material-icons white-text left">add_circle</i>
+            <span class="bold">New Account</span>
+        </a>
+    </div>
+
+</div>
+
+{% endblock %}
